@@ -20,7 +20,7 @@
 	<body>
 		<div id="qwe">
 		<div id="qq">
-		<p><img src ="11.png"  width="450px" height="50px"/></p>
+		<p><img src ="11.png"  width="450px" height="50px" /></p>
 		<p>持证人：肖雄</p>
 		<p>登记日期：2019.01.01</p>
 		<br />
@@ -32,9 +32,19 @@
 		<p><td>姓名：肖鸣君</td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<td>性别：女</td></p>
 		<p><td>国籍：中国</td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<td>出生年月：2000.07.26</td></p>
 		<p>身份证件号：430426200007268888</p>
-		<p class="ss"><img src ="01.jpg"  width="130px" height="100px"/></p>
+		<p class="ss"><img src ="01.jpg"  width="130px" height="100px" onmouseover="showB(this)" onmouseout="showA(this)"/></p>
 		</div>
 		</div>
 	</body>
+	<script>
+function showA(obj)
+{
+obj.src="01.jpg";
+}
+function showB(obj)
+{
+obj.src="02.jpg"
+}
+</script>
 </html>
 
